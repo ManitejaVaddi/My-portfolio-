@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VenkataManiteja — Full Stack Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- FLOATING ICONS BACKGROUND -->
+<div id="float-canvas"></div>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">Maniteja<span>.</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section id="hero" style="max-width:100%;padding:0;">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-tag">
+        <span class="dot-pulse"></span>
+        Open to full-time &amp; freelance roles
+      </div>
+      <div class="typing-wrap"><span id="typed-text"></span></div>
+      <h1 class="hero-name">Venkata<br><em>Maniteja</em></h1>
+      <p class="hero-tagline">
+        Full Stack Developer building real-world web apps — from sleek React UIs to scalable Node.js backends. Passionate about clean code, fast APIs, and products that actually work.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary"><i class="fas fa-eye"></i> View My Work</a>
+        <a href="mailto:maniteja1973@gmail.com" class="btn-secondary"><i class="far fa-envelope"></i> Contact Me</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num">3+</div>
+          <div class="hero-stat-label">Projects shipped</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">5+</div>
+          <div class="hero-stat-label">Technologies</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">Top 10</div>
+          <div class="hero-stat-label">Hackathon finish</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo-wrap">
+        <i class="fas fa-user"></i>
+        <p>Add your photo here</p>
+      </div>
+      <div class="hero-badge">
+        <div class="badge-icon"><i class="fas fa-check"></i></div>
+        <div class="badge-text">
+          <strong>Available for hire</strong>
+          Full-time or freelance
+        </div>
+      </div>
+      <div class="hero-badge2">
+        <i class="fab fa-github" style="color:var(--ink-soft)"></i>
+        <span>ManitejaVaddi</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><hr></div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-label reveal">About me</div>
+  <h2 class="section-title reveal">The person behind the code</h2>
+  <div class="about-grid">
+    <div style="position:relative;" class="reveal">
+      <div class="about-img">
+        <i class="fas fa-user"></i>
+        <p>Your photo here</p>
+      </div>
+      <div class="about-card">
+        <h4>Quick Facts</h4>
+        <div class="about-facts">
+          <!-- <div class="fact"><i class="fas fa-map-marker-alt"></i> Vijayawada, AP</div> -->
+          <div class="fact"><i class="fas fa-graduation-cap"></i> B.Tech CSE — LPU</div>
+          <div class="fact"><i class="fas fa-code"></i> Full Stack Dev</div>
+          <div class="fact"><i class="fas fa-circle" style="color:var(--green);font-size:0.45rem"></i> Available now</div>
+        </div>
+      </div>
+    </div>
+    <div class="about-content">
+      <p class="reveal">Hi, I'm Venkata Maniteja — a Full Stack Developer currently completing my B.Tech in Computer Science at Lovely Professional University, Phagwara. I build end-to-end web applications with React, Node.js, and MongoDB.</p>
+      <p class="reveal reveal-delay-1">I completed a Full Stack internship at Skillfied Mentor where I designed responsive UIs, developed RESTful APIs, and implemented database operations using MongoDB &amp; MySQL. I've shipped real products including a Cricket Score Management App and a Luxury Bridal Makeup Platform.</p>
+      <p class="reveal reveal-delay-2">I'm driven by clean code, fast APIs, and building things that users love. I'm actively looking for full-time roles and freelance projects where I can contribute, learn, and grow fast.</p>
+      <div class="about-highlights reveal reveal-delay-3">
+        <div class="highlight">
+          <div class="highlight-num"> Real World</div>
+          <div class="highlight-label">Projects delivered</div>
+        </div>
+        <div class="highlight">
+          <div class="highlight-num">93.3%</div>
+          <div class="highlight-label">Intermediate score</div>
+        </div>
+        <div class="highlight">
+          <div class="highlight-num">Top 10</div>
+          <div class="highlight-label">Hackathon — Code a Haunt 3.0</div>
+        </div>
+        <div class="highlight">
+          <div class="highlight-num">Silver</div>
+          <div class="highlight-label">NPTEL Cloud badge</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" style="max-width:100%;padding:0;">
+  <div class="skills-inner">
+    <div class="section-label reveal">Technical skills</div>
+    <h2 class="section-title reveal">Tools &amp; technologies</h2>
+    <p class="reveal" style="color:var(--ink-soft);margin-top:0.5rem;font-size:0.95rem;max-width:560px;">My go-to stack for building production-ready web applications.</p>
+    <div class="skills-grid">
+      <div class="skill-cat reveal">
+        <div class="skill-cat-header"><div class="skill-cat-icon"><i class="fas fa-code"></i></div><div class="skill-cat-title">Frontend</div></div>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML5</span><span class="skill-tag">CSS3</span><span class="skill-tag">JavaScript</span><span class="skill-tag">React.js</span><span class="skill-tag">Tailwind CSS</span><span class="skill-tag">Vite</span><span class="skill-tag">Framer Motion</span><span class="skill-tag">Axios</span>
+        </div>
+      </div>
+      <div class="skill-cat reveal reveal-delay-1">
+        <div class="skill-cat-header"><div class="skill-cat-icon"><i class="fas fa-server"></i></div><div class="skill-cat-title">Backend</div></div>
+        <div class="skill-tags">
+          <span class="skill-tag">Node.js</span><span class="skill-tag">Express.js</span><span class="skill-tag">RESTful APIs</span><span class="skill-tag">FastAPI</span><span class="skill-tag">JWT Auth</span><span class="skill-tag">Google OAuth</span><span class="skill-tag">Razorpay</span>
+        </div>
+      </div>
+      <div class="skill-cat reveal reveal-delay-2">
+        <div class="skill-cat-header"><div class="skill-cat-icon"><i class="fas fa-database"></i></div><div class="skill-cat-title">Databases &amp; Data</div></div>
+        <div class="skill-tags">
+          <span class="skill-tag">MongoDB</span><span class="skill-tag">MySQL</span><span class="skill-tag">SQLite</span><span class="skill-tag">SQL</span><span class="skill-tag">Pandas</span><span class="skill-tag">JSON/CSV</span><span class="skill-tag">Cloudinary</span>
+        </div>
+      </div>
+      <div class="skill-cat reveal reveal-delay-3">
+        <div class="skill-cat-header"><div class="skill-cat-icon"><i class="fas fa-tools"></i></div><div class="skill-cat-title">Languages &amp; Tools</div></div>
+        <div class="skill-tags">
+          <span class="skill-tag">C++</span><span class="skill-tag">Python</span><span class="skill-tag">Java</span><span class="skill-tag">Git</span><span class="skill-tag">GitHub</span><span class="skill-tag">Postman</span><span class="skill-tag">VS Code</span><span class="skill-tag">Dev-CPP</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skill Bars -->
+    <div class="skill-bars reveal" style="margin-top:3rem;">
+      <p style="font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent-mid);font-weight:500;margin-bottom:1.5rem;">Proficiency</p>
+      <div class="skill-bar-row"><div class="skill-bar-label">React.js</div><div class="bar-track"><div class="bar-fill" data-pct="88"></div></div><div class="skill-bar-pct">88%</div></div>
+      <div class="skill-bar-row"><div class="skill-bar-label">Node.js / Express</div><div class="bar-track"><div class="bar-fill" data-pct="85"></div></div><div class="skill-bar-pct">85%</div></div>
+      <div class="skill-bar-row"><div class="skill-bar-label">JavaScript</div><div class="bar-track"><div class="bar-fill" data-pct="87"></div></div><div class="skill-bar-pct">87%</div></div>
+      <div class="skill-bar-row"><div class="skill-bar-label">MongoDB</div><div class="bar-track"><div class="bar-fill" data-pct="80"></div></div><div class="skill-bar-pct">80%</div></div>
+      <div class="skill-bar-row"><div class="skill-bar-label">Python / FastAPI</div><div class="bar-track"><div class="bar-fill" data-pct="75"></div></div><div class="skill-bar-pct">75%</div></div>
+      <div class="skill-bar-row"><div class="skill-bar-label">C++ / DSA</div><div class="bar-track"><div class="bar-fill" data-pct="78"></div></div><div class="skill-bar-pct">78%</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label reveal">Featured work</div>
+  <h2 class="section-title reveal">Projects I'm proud of</h2>
+  <p class="reveal" style="color:var(--ink-soft);margin-top:0.5rem;font-size:0.95rem;max-width:560px;">Real applications — built, deployed, and live.</p>
+  <div class="projects-grid">
+
+    <div class="project-card reveal">
+      <div class="project-banner p1">🏏</div>
+      <div class="project-body">
+        <div class="project-number">Project 01 · April 2026</div>
+        <div class="project-title">Cricket Score Management App</div>
+        <p class="project-desc">Full-stack web app to manage live cricket matches — user registration, live score updates, toss results, and match summaries with JWT-secured APIs and clean modular backend architecture.</p>
+        <div class="project-tech"><span class="tech-tag">ReactJS</span><span class="tech-tag">Node.js</span><span class="tech-tag">Express.js</span><span class="tech-tag">MongoDB</span><span class="tech-tag">JWT</span><span class="tech-tag">Axios</span></div>
+        <div class="project-links">
+          <a href="https://github.com/ManitejaVaddi" target="_blank" class="project-link gh"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal reveal-delay-1">
+      <div class="project-banner p2">💄</div>
+      <div class="project-body">
+        <div class="project-number">Project 02 · April 2026</div>
+        <div class="project-title">Luxury Bridal Makeup Platform</div>
+        <p class="project-desc">Premium full-stack platform for bridal makeup artists — online booking, portfolio showcase, payment integration (Razorpay), admin dashboard, gallery management, and Google OAuth login.</p>
+        <div class="project-tech"><span class="tech-tag">ReactJS</span><span class="tech-tag">Vite</span><span class="tech-tag">Tailwind CSS</span><span class="tech-tag">Node.js</span><span class="tech-tag">MongoDB</span><span class="tech-tag">Razorpay</span><span class="tech-tag">Google OAuth</span><span class="tech-tag">Cloudinary</span></div>
+        <div class="project-links">
+          <a href="https://github.com/ManitejaVaddi/Make-up-Aura" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+          <a href="https://github.com/ManitejaVaddi/Make-up-Aura" target="_blank" class="project-link gh"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal reveal-delay-2">
+      <div class="project-banner p3">🏦</div>
+      <div class="project-body">
+        <div class="project-number">Project 03 · Dec 2025</div>
+        <div class="project-title">Automated Loan Approval System</div>
+        <p class="project-desc">Python-based loan eligibility platform using FastAPI — identity verification, employment validation, rule-driven approval/rejection, and structured audit records with SQLite persistence.</p>
+        <div class="project-tech"><span class="tech-tag">Python</span><span class="tech-tag">FastAPI</span><span class="tech-tag">SQLite</span><span class="tech-tag">REST APIs</span><span class="tech-tag">HTML/CSS/JS</span></div>
+        <div class="project-links">
+          <a href="https://github.com/ManitejaVaddi/Loan_Automation" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+          <a href="https://github.com/ManitejaVaddi/Loan_Automation" target="_blank" class="project-link gh"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" style="max-width:100%;padding:0;">
+  <div class="exp-inner">
+    <div class="section-label reveal">Work history</div>
+    <h2 class="section-title reveal">Internship Experience</h2>
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-date"><div class="tl-date-range">Jun 2025</div><div class="tl-date-year">Present</div></div>
+        <div class="tl-dot current"></div>
+        <div class="tl-content">
+          <div class="tl-role">Full Stack Web Development Intern</div>
+          <div class="tl-company">Skillfied Mentor</div>
+          <ul class="tl-bullets">
+            <li>Built end-to-end web applications using HTML, CSS, JavaScript, React, Node.js, and Express.js</li>
+            <li>Designed responsive user interfaces and developed RESTful APIs with efficient server-side logic</li>
+            <li>Implemented database operations using MongoDB/MySQL — CRUD, debugging, and optimization</li>
+            <li>Gained hands-on experience in Data Structures &amp; Algorithms using C++</li>
+          </ul>
+          <span class="tl-tag work">Internship</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Achievements -->
+    <div style="margin-top:3.5rem;">
+      <div class="section-label reveal">Recognition</div>
+      <h2 class="section-title reveal" style="font-size:clamp(1.5rem,3vw,2.1rem);">Achievements</h2>
+      <div class="achieve-grid">
+        <div class="achieve-card reveal">
+          <div class="achieve-icon gold"><i class="fas fa-award"></i></div>
+          <div class="achieve-text"><h4>NPTEL Silver Badge</h4><p>Awarded Silver badge in NPTEL's Cloud Computing Examination — Sep 2024</p></div>
+        </div>
+        <div class="achieve-card reveal reveal-delay-1">
+          <div class="achieve-icon green"><i class="fas fa-hands-helping"></i></div>
+          <div class="achieve-text"><h4>NGO Recognition</h4><p>Recognized by an NGO for outstanding contribution to community development over 30 days</p></div>
+        </div>
+        <div class="achieve-card reveal reveal-delay-2">
+          <div class="achieve-icon"><i class="fas fa-code"></i></div>
+          <div class="achieve-text"><h4>Hackathon Top 10</h4><p>Finalized in Top 10 teams at Code a Haunt 3.0 Hackathon — competitive national-level event</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-label reveal">Academic background</div>
+  <h2 class="section-title reveal">Education</h2>
+  <div class="edu-grid">
+    <div class="edu-card reveal">
+      <div class="edu-degree">B.Tech — Computer Science &amp; Engineering</div>
+      <div class="edu-school">Lovely Professional University</div>
+      <div class="edu-meta">
+        <span class="edu-badge score">CGPA: 7.37</span>
+        <span class="edu-badge year">Aug 2020 – 2026</span>
+      </div>
+      <div class="edu-location"><i class="fas fa-map-marker-alt"></i> Phagwara, Punjab</div>
+    </div>
+    <div class="edu-card reveal reveal-delay-1">
+      <div class="edu-degree">Intermediate (Class XII)</div>
+      <div class="edu-school">Sri Chaitanya Junior College</div>
+      <div class="edu-meta">
+        <span class="edu-badge score">93.3%</span>
+        <span class="edu-badge year">Apr 2020 – Mar 2022</span>
+      </div>
+      <div class="edu-location"><i class="fas fa-map-marker-alt"></i> Srikakulam, Andhra Pradesh</div>
+    </div>
+    <div class="edu-card reveal reveal-delay-2">
+      <div class="edu-degree">Matriculation (Class X)</div>
+      <div class="edu-school">Keshava Reddy School</div>
+      <div class="edu-meta">
+        <span class="edu-badge score">95%</span>
+        <span class="edu-badge year">Apr 2019 – Mar 2020</span>
+      </div>
+      <div class="edu-location"><i class="fas fa-map-marker-alt"></i> Srikakulam, Andhra Pradesh</div>
+    </div>
+  </div>
+
+  <!-- Certifications -->
+  <div style="margin-top:3.5rem;">
+    <div class="section-label reveal">Certifications</div>
+    <h2 class="section-title reveal" style="font-size:clamp(1.5rem,3vw,2.1rem);">Certificates</h2>
+    <div class="cert-list">
+      <div class="cert-item reveal">
+        <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+        <div class="cert-info">
+          <div class="cert-name">Build Apps Using React — Advanced Features in React</div>
+          <div class="cert-issuer">Infosys</div>
+        </div>
+        <div class="cert-date">Mar 2026</div>
+      </div>
+      <div class="cert-item reveal reveal-delay-1">
+        <div class="cert-icon"><i class="fas fa-laptop-code"></i></div>
+        <div class="cert-info">
+          <div class="cert-name">DSA Using C++</div>
+          <div class="cert-issuer">Cipher Schools</div>
+        </div>
+        <div class="cert-date">Jul 2025</div>
+      </div>
+      <div class="cert-item reveal reveal-delay-2">
+        <div class="cert-icon"><i class="fas fa-cloud"></i></div>
+        <div class="cert-info">
+          <div class="cert-name">Cloud Computing Course</div>
+          <div class="cert-issuer">NPTEL · Silver Badge</div>
+        </div>
+        <div class="cert-date">Sep 2024</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-label reveal">Get in touch</div>
+  <h2 class="section-title reveal">Let's build something together</h2>
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <h3>Open to full-time roles &amp; freelance projects</h3>
+      <p>Whether you have a role, a project, or just want to talk tech — I'd love to hear from you. I respond within 24 hours.</p>
+      <div class="contact-links">
+        <a href="mailto:maniteja1973@gmail.com" class="contact-link-item">
+          <div class="cli-icon email"><i class="fas fa-envelope"></i></div>
+          <div class="cli-text"><div class="cli-label">Email</div><div class="cli-value">maniteja1973@gmail.com</div></div>
+          <i class="fas fa-arrow-right" style="color:var(--ink-faint);font-size:0.75rem"></i>
+        </a>
+        <a href="https://github.com/ManitejaVaddi" target="_blank" class="contact-link-item">
+          <div class="cli-icon gh"><i class="fab fa-github"></i></div>
+          <div class="cli-text"><div class="cli-label">GitHub</div><div class="cli-value">github.com/ManitejaVaddi</div></div>
+          <i class="fas fa-arrow-right" style="color:var(--ink-faint);font-size:0.75rem"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/vaddi-venkata-maniteja" target="_blank" class="contact-link-item">
+          <div class="cli-icon li"><i class="fab fa-linkedin-in"></i></div>
+          <div class="cli-text"><div class="cli-label">LinkedIn</div><div class="cli-value">vaddi-venkata-maniteja</div></div>
+          <i class="fas fa-arrow-right" style="color:var(--ink-faint);font-size:0.75rem"></i>
+        </a>
+        <a href="tel:+919704983597" class="contact-link-item">
+          <div class="cli-icon ph"><i class="fas fa-phone"></i></div>
+          <div class="cli-text"><div class="cli-label">Phone</div><div class="cli-value">+91 9704983597</div></div>
+          <i class="fas fa-arrow-right" style="color:var(--ink-faint);font-size:0.75rem"></i>
+        </a>
+      </div>
+    </div>
+    <div class="contact-form reveal reveal-delay-1">
+      <h4>Send me a message</h4>
+      <div class="form-row">
+        <div class="form-group"><label>First name</label><input type="text" id="fname" placeholder="Jane"></div>
+        <div class="form-group"><label>Last name</label><input type="text" id="lname" placeholder="Smith"></div>
+      </div>
+      <div class="form-group"><label>Email address</label><input type="email" id="email" placeholder="jane@company.com"></div>
+      <div class="form-group">
+        <label>Subject</label>
+        <select id="subject">
+          <option value="">Select a topic...</option>
+          <option>Full-time role</option>
+          <option>Freelance project</option>
+          <option>Collaboration</option>
+          <option>Just saying hi</option>
+        </select>
+      </div>
+      <div class="form-group"><label>Message</label><textarea id="message" placeholder="Tell me about your project or opportunity..."></textarea></div>
+      <button class="btn-submit" onclick="submitForm()"><i class="fas fa-paper-plane"></i> Send Message</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Designed &amp; built by <strong>VenkataManiteja Vaddi</strong> &nbsp;·&nbsp;
+  <a href="mailto:maniteja1973@gmail.com">maniteja1973@gmail.com</a> &nbsp;·&nbsp;
+  <a href="https://github.com/ManitejaVaddi" target="_blank">GitHub</a> &nbsp;·&nbsp;
+  © 2025 All rights reserved.</p>
+</footer>
+
+<div class="toast" id="toast"><i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.</div>
+<div id="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fas fa-arrow-up" style="font-size:0.8rem"></i></div>
+
+<script src="script.js"></script>
+</body>
+</html>
